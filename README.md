@@ -1,8 +1,8 @@
-# Diet-IT 🌶
+# Diet-IT 
 
 **Your Smart Indian AI Diet Planner**
 
-Diet-IT is a full-stack Next.js app that uses Claude AI to generate personalized 7-day Indian meal plans based on your health goals.
+Diet-IT is a full-stack Next.js app that uses GROQ AI to generate personalized 7-day Indian meal plans based on your health goals.
 
 ---
 
@@ -22,7 +22,7 @@ Diet-IT is a full-stack Next.js app that uses Claude AI to generate personalized
 
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: Tailwind CSS
-- **AI**: Anthropic Claude (claude-sonnet-4-20250514)
+- **AI**: groq api
 - **Fonts**: Bebas Neue + Barlow (Google Fonts)
 - **Deployment**: Vercel
 
@@ -38,13 +38,13 @@ diet-it/
 │   │   ├── plan/page.js         # 7-day meal plan page
 │   │   ├── profile/page.js      # User profile page
 │   │   ├── api/
-│   │   │   ├── generate-plan/route.js   # Claude API - meal plan
-│   │   │   └── get-recipe/route.js      # Claude API - recipe
+│   │   │   ├── generate-plan/route.js   
+│   │   │   └── get-recipe/route.js      
 │   │   ├── layout.js
 │   │   └── globals.css
 │   └── components/
 │       └── Navbar.js
-├── .env.example
+├── .env.local
 ├── .gitignore
 ├── next.config.js
 ├── tailwind.config.js
